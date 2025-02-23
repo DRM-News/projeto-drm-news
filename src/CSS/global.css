@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.header {
+    background-color: rgb(9, 28, 59);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.title {
+    text-align: center;
+    padding: 25px 30px;
+    font-size: 60px;
+    align-content: center;
+    font-family: 'Inter', sans-serif;
+}
+.logo {
+    height: 100px;
+    padding: 10px 17px;
+    align-self: baseline;
+}
+.options {
+    background-color:rgb(7, 19, 38);
+}
+.options ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: nowrap;
+    gap: 300px;
+}
+.way-item {
+    background-color: rgb(7, 19, 38);
+    padding: 12px 19px;
+    font-family: 'Inter' , sans-serif;
+    list-style: none;
+}
+.way-link {
+    text-decoration: none;
+    border: none;
+    color: white;
+    padding: 7px 10px ;
+}
+.main {
+    display: flex;
+    font-family: sans-serif;
+    justify-content: flex-end;
+    height: 526px;
+}
+.credits {
+    display: flex;  
+}
+.logo-insta {
+    width: 20px;
+    height: 20px;
+}
+.social-item {
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+}
