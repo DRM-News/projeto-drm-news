@@ -1,0 +1,9 @@
+:root {
+    --light-color-title-2: rgb(19, 51, 103);
+    --light-color-title: rgb(18, 55, 114);
+    --dark-color-title: rgb(9, 27, 57);
+    --dark-color-title-2: rgb(8, 23, 46);
+    --light-color-main: whitesmoke;
+    --dark-color-main: rgb(18, 22, 28);
+    --light-color-hover-btn: rgb(34, 94, 189);
+}

@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import './variables.css';
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.light{
+    background-color: var(--light-color-main);
+    color: var(--dark-color-main);
+}
+.dark{
+    background-color: var(--dark-color-main);
+    color: var(--light-color-main);
+}
+.all-divs{
+    height: 100dvh;
+    width: 100dvw;
+}
+.header-light {
+    background-color: var(--light-color-title);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+}
+.header-dark{
+    background-color: var(--dark-color-title);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+}
+.name-and-logo{
+    display: flex;
+    justify-content: center;
+}
+.title {
+    text-align: center;
+    padding: 25px 30px 25px 0px;
+    font-size: 60px;
+    align-content: center;
+    font-family: 'Inter', sans-serif;
+}
+.logo {
+    height: 100px;
+    padding: 10px 0px 10px 17px;
+    align-self: baseline;
+}
+.settings-light {
+    background-color: var(--light-color-title);
+    border: none;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.settings-dark {
+    background-color: var(--dark-color-title);
+    border: none;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.settings-light img{
+    height: 50px;
+    width: 50px;
+}
+.settings-dark img{
+    height: 50px;
+    width: 50px;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+}
+.settings-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    color: var(--light-color-main);
+    background-color: var(--light-color-title);
+    border: 4px solid var(--light-color-title-2);
+    border-radius: 30px;
+    margin: 20px 0px;
+    height: 200px;
+    width: 200px;
+}
+.toggle-theme-button{
+    border: 5px solid var(--light-color-title);
+    border-radius: 30px;
+    color: var(--light-color-main);
+    background-color: var(--dark-color-title);
+    cursor: pointer;
+    padding: 10px 10px;
+}
+.toggle-theme-button:hover {
+    background-color: var(--light-color-hover-btn);
+    border-color: var(--light-color-hover-btn);
+}
+.options-light {
+    background-color: var(--light-color-title-2);
+}
+.options-dark {
+    background-color: var(--dark-color-title-2);
+}
+.options-light ul{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: nowrap;
+    gap: 300px;
+}
+.options-dark ul{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: nowrap;
+    gap: 300px;
+}
+.way-item-light {
+    background-color: var(--light-color-title-2);
+    padding: 12px 19px;
+    font-family: 'Inter' , sans-serif;
+    list-style: none;
+}
+.way-item-dark {
+    background-color: var(--dark-color-title-2);
+    padding: 12px 19px;
+    font-family: 'Inter' , sans-serif;
+    list-style: none;
+}
+.way-link {
+    text-decoration: none;
+    border: none;
+    color: white;
+    padding: 7px 10px ;
+}
+.main {
+    display: flex;
+    font-family: sans-serif;
+    flex-flow: column-reverse wrap;
+    align-items: center;
+}
